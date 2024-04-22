@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HeloWorld
-build_property.ProjectDir = C:\Users\desz2\OneDrive\Desktop\Projetos\HeloWorld\
+build_property.ProjectDir = C:\Users\desz2\OneDrive\Desktop\Projetos\HelloWorldRepo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
