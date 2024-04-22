@@ -4,11 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("What is your name?");
-        var name = Console.ReadLine();
-        var currentDate = DateTime.Now;
-        Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
-        Console.Write($"{Environment.NewLine}Press any key to exit...");
-        Console.ReadKey(true);
+            Console.Write("Bora fazer conta!! \n");
+
+            Console.Write("Digite o primeiro número: ");
+            int n1 = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Digite o segundo número: ");
+            int n2 = Convert.ToInt16(Console.ReadLine());
+
+            CalculadoraSimples.Calculadora(n1, n2);
     }
 }
